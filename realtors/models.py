@@ -15,13 +15,3 @@ class Realtor(models.Model):
     def __str__(self):
         return self.name
 
-
-# #contact
-# user_id,
-# listing,
-# listing_id,
-# name,
-# email,
-# phone,
-# message,
-# contact_date
