@@ -80,15 +80,48 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'btredb',
+#         'USER': 'postgres',
+#         'PASSWORD': 'postgres',
+#         'HOST': 'localhost'
+#     }
+# }
+# for ElephantSQL
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'stkvxsgr',
+#         'USER': 'stkvxsgr',
+#         'PASSWORD': 'BBtTWLbkg5sYFgMP7drxwytg0PRCfer7',
+#         'HOST': 'balarama.db.elephantsql.com',
+#         'PORT': 5432
+#     }
+# }
+# for aiven
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'defaultdb',
+#         'USER': 'avnadmin',
+#         'PASSWORD': 'AVNS_sO4kaCrA78SoXVGjGf-',
+#         'HOST': 'pg-6375de4-olegs-4d59.a.aivencloud.com',
+#         'PORT': 19323
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost'
+        'NAME': 'defaultdb',
+        'USER': 'avnadmin',
+        'PASSWORD': 'AVNS_sO4kaCrA78SoXVGjGf-',
+        'HOST': 'pg-6375de4-olegs-4d59.a.aivencloud.com',
+        'PORT': 19323
     }
 }
+
 
 
 # Password validation
